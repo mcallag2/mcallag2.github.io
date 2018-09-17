@@ -34,7 +34,7 @@
 .sample-set {
     font-size:40;
     color:#2c2946;
-    padding-top: 240;
+    padding-top: 260;
     padding-left:50;
     text-align: left; 
     font-weight: 350;
@@ -56,7 +56,7 @@
 }
 .middle {
     height: 60px;
-    width: 425;
+    width: 725;
     order: 2;
 }
 #circle {
@@ -72,7 +72,7 @@
     position:absolute;
     z-index:20;
     top: 128px;
-    left: 1250px;
+    left: 1450px;
 
 }
 .bottom {
