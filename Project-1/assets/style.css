@@ -29,6 +29,7 @@
     height:630;
     display:flex;
     order: 1;
+    position:relative;
 }
 
 .sample-set {
