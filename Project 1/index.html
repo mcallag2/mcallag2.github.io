@@ -3,15 +3,28 @@
 <link rel="stylesheet" href="assets/style.css">
 <link rel="stylesheet" href="https://use.typekit.net/nsr7xob.css">
 <link rel="stylesheet" href="https://use.typekit.net/nsr7xob.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="assets/jquery.cycle2.min.js"></script>
 </head>
 <html>
-    <body>
+    <body class="body">
+        
         <div class="container">
+              <img src="Images/BackGround.jpg" class="background">
+               
             <div class="top">
                 <h1 class="big-letter">Q</h1>
-                <div class="button"> </div>
                 <div class="sample-set" >
                     A B<br />C D E F<br />G H I J K L <br />M N O P Q R<br /> S T U V W X Y Z<br /> 1 2 3 4 5 6 7 8 9 
+                </div>
+                <div class="cycle-slideshow analysis" data-cycle-timeout="0" data-cycle-next="#circle">
+                    <img src="Images/blankletteranalysis.png" width="215" height="500" class="cycle-slide" />
+                    <img src="Images/letteranalysis.png" width="215" height="500" alt="typographic analysis" class="cycle-slide" />    
+                </div>
+        
+            </div>
+            <div class="middle">
+                <div id="circle">
                 </div>
             </div>
             <div class="bottom">
@@ -21,19 +34,19 @@
                 </div>
                 <div class="name-and-source">
                     <div class="photo-title">
-                        <img src="Images/my_photo.jpg" class=picture>
+                        <img src="Images/picture1.jpg" class=picture>
                         <h3>Meghan Callaghan</h3>
                         <h4>Visual Communication Design and Marketing</h4>
                     </div>
                     <div class= "sources">
-                        <h3>Sources</h3><p>https://www.sudtipos.com/font/politica“Politica.” Linotype Didot™ - Webfont & Desktop Font « MyFonts, www.myfonts.com/fonts/sudtipos/politica2/. <p>“Politica Font Family · Sudtipos.com.” Sudtipos.com, www.sudtipos.com/font/politica.</p>
+                        <h3>Sources</h3><p>https://www.sudtipos.com/font “Politica.” Linotype Didot - Webfont & Desktop  www.myfonts.com/fonts/sudtipos/politica2/. <p>“Politica Font Family · Sudtipos.com.” www.sudtipos.com/font/politica.</p>
                     </div>
                 </div>
             </div>
+            
         </div>
     </body>
 </html>
 
 
 
-<!-- figure out the box thing, figure out how to do the line breaks in the letter sample set; figure out how to adjust image size and move things so they fit together more; then adding images and colors -->
