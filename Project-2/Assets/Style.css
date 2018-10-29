@@ -1,0 +1,64 @@
+* {
+    margin: 0px
+}
+
+
+
+.body {
+    background-color: #477baf;
+   
+}
+
+.container {
+    width: 768px;
+    height:1024px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+img.back {
+    width:768;
+    height:1024;
+    position: absolute;
+    z-index: -10;
+}
+
+
+
+.instructions {
+    font-size: 20px;
+    text-align: right;
+    width: 300;
+    display: flex;
+    order: 2;
+    margin-left: 310;
+    margin-bottom: 150;
+    color: #9dbbd2;
+    
+}
+
+.beginbutton {
+    width: 200px;
+    height: 50px;
+    margin-left: 606;
+    margin-bottom: 57;
+    text-align: center;
+    display: flex;
+    order: 1;
+    
+}
+
+
+a {
+    color:white;
+    font-family:sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30;
+}
+
+a:hover {
+   color: #0f5171; 
+}
