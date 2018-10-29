@@ -79,15 +79,6 @@ a:hover {
     color: #0f5171;
 }
 
-.buttonbackground {
-    width: 110;
-    height: 50;
-    background-color: #9dbbd2;
-    position: absolute;
-    top: 970;
-    left: 328;
-    z-index: -5;
-}
 
 
 
