@@ -1,0 +1,74 @@
+* {
+    margin: 0px
+}
+
+.body {
+   
+}
+
+
+.container {
+    width: 768;
+    height: 1024;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: aliceblue;
+}
+
+
+
+
+.scorpiuspicture {
+    width: 500;
+    height: 550;
+    order: 1;
+    margin-left: 125;
+    margin-right: 155;
+    margin-top: 50;
+    order: 1;
+    background-color: chartreuse;
+}
+
+.scorpiustitle {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    order: 2;
+    background-color: azure;
+    
+}
+
+
+.ursaminorinfo {
+    width: 400;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 210;
+    margin-right:194;
+    margin-bottom: 35;
+    order: 3;
+   background-color: azure;
+    
+}
+
+
+.backbutton {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    margin-left: 324;
+    margin-right: 324;
+    order: 4;
+    background-color: aqua;
+}
+
+
+
+
+
+
+

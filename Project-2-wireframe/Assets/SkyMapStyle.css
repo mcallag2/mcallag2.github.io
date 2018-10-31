@@ -1,0 +1,312 @@
+* {
+    margin: 0px
+}
+
+.body {
+    
+}
+
+.container {
+    width: 768;
+    height: 1024;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: aliceblue;
+    
+}
+
+.homebutton {
+    width: 100;
+    height: 40;
+    text-align: center;
+    position: absolute;
+    top: 60;
+    left: 334;
+    z-index: 400;
+    
+}
+
+.homeb {
+    width: 150;
+    height: 50;
+    background-color:aqua;
+    z-index: 5;
+    position: absolute;
+    left: 312;
+    top:50;
+}
+
+
+
+
+
+.skyimage{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.skyphoto {
+    width: 2500;
+    height: 1024;
+    position:relative;
+}
+
+.con1 {
+    width: 500;
+    height: 500;
+    position: absolute;
+    top: 101;
+    left: 32;
+    background-color: darkgrey
+}
+
+.visible {
+    opacity: 1 !important;
+}
+
+.invisible {
+    opacity: 0 !important;
+}
+
+.b1 {
+    width: 27;
+    height: 27;
+    border-radius: 50%;
+    background-color:aqua;
+    position: absolute;
+    top: 472;
+    left: 144;
+    z-index:999;
+    
+}
+
+
+.popup1 {
+    width:500;
+    height:500;
+    position: absolute;
+    opacity: 0;
+    background-color: chartreuse
+}
+
+img.Otrace {
+    width:550;
+    height:620;
+    position: absolute;
+    top: -65;
+    left:-41;
+    opacity: 0.0;
+}
+
+.button1 {
+    width: 90;
+    height: 60;
+    position: absolute;
+    background-color:aqua;
+    top: 500;
+    left: 50;
+    text-align: center;
+}
+
+
+.x1 {
+    width: 34;
+    height: 34;
+    position: absolute;
+    top:40;
+    left:400;
+    font-size: 30;
+    text-align: center;
+    color:aqua;
+    
+}
+
+.con2 {
+    width: 600;
+    height: 500;
+    position: absolute;
+    top: 476;
+    left: 639;
+    background-color: darkgrey;
+}
+
+.b2 {
+    width: 27;
+    height: 27;
+    border-radius: 50%;
+    background-color: cyan;
+    position: absolute;
+    top: 448;
+    left: 512;
+    z-index: 990;
+    
+}
+
+
+
+.popup2 {
+    width: 600;
+    height: 500;
+    position: absolute;
+    opacity: 0;
+    background-color: chartreuse;
+}
+
+img.UMtrace {
+    width: 710;
+    height: 520;
+    position: absolute;
+    top: -4;
+    left: -34;
+    opacity: 0.0;
+}
+
+.button2 {
+    width: 90;
+    height: 60;
+    position: absolute;
+    background-color: cyan;
+    top: 440;
+    left: 560;
+    text-align: center;
+}
+
+.x2 {
+    width: 34;
+    height: 34;
+    position: absolute;
+    top:40;
+    left:600;
+    font-size: 30;
+    text-align: center;
+     font-size: 30;
+    color:cyan;
+}
+    
+.con3 {
+    width: 400;
+    height: 400;
+    position: absolute;
+    top: 77;
+    left: 1312;
+    background-color: darkgrey;
+}
+
+.b3 {
+    width: 27;
+    height: 27;
+    border-radius: 50%;
+    background-color: cyan;
+    position: absolute;
+    top: 370;
+    left: 220;
+    z-index: 989;
+    
+}
+
+
+
+.popup3 {
+    width:400;
+    height:400;
+    position:absolute;
+    opacity: 0;
+    background-color: chartreuse;
+}
+
+img.UMitrace {
+    width: 340;
+    height: 455;
+    position: absolute;
+    top: -16;
+    left: 42;
+    opacity: 0.0;
+    
+}
+
+.button3 {
+    width: 90;
+    height:60;
+    position: absolute;
+    background-color: cyan;
+    top: 399;
+    left: 110;
+    text-align: center;
+}
+
+.x3 {
+    width: 34;
+    height: 34;
+    position: absolute;
+    top:40;
+    left:360;
+    font-size: 30;
+    text-align: center;
+    font-size: 30;
+    color: cyan;
+}
+
+.con4 {
+    width: 700;
+    height: 600;
+    position: absolute;
+    top: 308;
+    left: 1687;
+    background-color: darkgrey;
+}
+
+.b4 {
+    width: 27;
+    height: 27;
+    border-radius: 50%;
+    background-color: cyan;
+    position: absolute;
+    top: 178;
+    left: 616;
+    z-index: 987;
+
+}
+
+
+
+.popup4 {
+    width: 700;
+    height: 600;
+    position: absolute;
+    opacity: 0;
+    background-color: chartreuse;
+}
+img.Strace {
+    width:737;
+    height:550;
+    position:absolute;
+    top:34;
+    left:-31;
+    opacity: 0.0;
+}
+
+.button4 {
+    width: 90;
+    height: 60;
+    position: absolute;
+    background-color:cyan;
+    top: 200;
+    left: 680;
+    text-align: center;
+}
+
+.x4 {
+    width: 34;
+    height: 34;
+    position: absolute;
+    top:50;
+    left:700;
+    font-size: 30;
+    text-align: center;
+    font-size: 30;
+    color: cyan;
+}
+  
+    

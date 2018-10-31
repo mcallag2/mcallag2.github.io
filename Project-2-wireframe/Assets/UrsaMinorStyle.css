@@ -1,0 +1,64 @@
+* {
+    margin: 0px
+}
+
+.body {
+    
+    
+}
+
+.container {
+    width: 768;
+    height: 1024;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: aliceblue;
+}
+
+
+
+.ursaminorpicture {
+   width: 560;
+    height: 450;
+    margin-left: 100px;
+    margin-right: 104px;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    order:1;
+    background-color: chartreuse;
+   
+}
+
+.ursaminortitle {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    order:2;
+   background-color: azure;
+}
+
+.ursaminorinfo {
+    width: 480px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 160;
+    margin-bottom: 45;
+    order:3;
+    background-color: azure;
+}
+
+.backbutton {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    margin-left: 324;
+    margin-right: 324;
+    order:4;
+    background-color: aqua;
+}
+
+

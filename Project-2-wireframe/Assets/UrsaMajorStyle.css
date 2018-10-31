@@ -1,0 +1,68 @@
+* {
+    margin: 0px
+}
+
+.body {
+    
+    
+}
+
+.container {
+    width: 768;
+    height: 1024;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: aliceblue;
+}
+
+
+
+.ursamajorpicture {
+    width: 550;
+    height: 420;
+    margin-left: 130px;
+    margin-right: 109px;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    order:1;
+    background-color: chartreuse;
+   
+}
+
+.ursamajortitle {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    order:2;
+    background-color: azure;
+   
+}
+
+.ursamajorinfo {
+    width: 480px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 157;
+    margin-bottom: 50;
+    order:3;
+    background-color: azure;
+  
+}
+
+.backbutton {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    margin-left: 324;
+    margin-right: 324;
+    order:4;
+    background-color: aqua
+}
+
+
+
+
