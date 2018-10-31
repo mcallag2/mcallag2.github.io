@@ -2,6 +2,15 @@
     margin: 0px
 }
 
+img.homebg {
+    min-height:100%;
+    min-width: 1024px;
+    width:100%;
+    height: auto;
+    position: absolute;
+    background-size: cover;
+    z-index: -999;  
+}
 
 
 .body {
@@ -9,6 +18,9 @@
    
 }
 
+img.homebg {
+    
+}
 .container {
     width: 768px;
     height:1024px;
@@ -19,7 +31,7 @@
 }
 
 img.back {
-    width:768;
+    width:1000;
     height:1024;
     position: absolute;
     z-index: -10;

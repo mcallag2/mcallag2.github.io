@@ -7,6 +7,17 @@
     
 }
 
+img.infobg {
+    min-height:100%;
+    min-width: 1024px;
+    width:100%;
+    height: auto;
+    position: absolute;
+    background-size: cover;
+    z-index: -999;
+}
+
+
 .container {
     width: 768;
     height: 1024;
@@ -18,10 +29,12 @@
 }
 
 img.backgroundpic {
-    width: 768;
-    height:1024;
+     width: 768;
+    height:1000;
+    top:20;
     position: absolute;
-    z-index: -10; 
+    opacity: 0.6;
+    z-index: -10;
 }
 
 img.minorpic {
@@ -52,6 +65,7 @@ img.minorpic {
     margin-bottom: 45;
     order:3;
     color:#0f5171;
+    font-family: sans-serif;
 }
 
 .backbutton {
@@ -64,13 +78,13 @@ img.minorpic {
 }
 
 a {
-    color:white;
+    color:#0f5171;
     font-family: sans-serif;
     text-decoration: none;
     font-size: 25
 }
 
 a:hover {
-    color: #0f5171;
+    color: #c6d9e0;
 }
 

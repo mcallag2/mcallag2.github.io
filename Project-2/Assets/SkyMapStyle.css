@@ -6,6 +6,17 @@
     background-color: #0f5171;
 }
 
+img.map {
+    min-height:100%;
+    min-width: 1024px;
+    width:100%;
+    height: auto;
+    position: absolute;
+    background-size: cover;
+    z-index: -999;
+    opacity: 0.4;
+}
+
 .container {
     width: 768;
     height: 1024;
@@ -85,16 +96,20 @@ img.skyphoto {
     top: 472;
     left: 144;
     z-index:999;
-    animation: pulse 2s infinite;
+    animation: pulse 1s infinite;
 }
 
 @keyframes pulse {
     0% {
         background-color:#75bbd2; 
     }
+    25% {background-color:#e4eebd
+        }
     50% {
         background-color: white;
     }
+    75% {background-color:#e4eebd
+        }
     100% {
         background-color: #75bbd2;
     }
@@ -164,9 +179,13 @@ img.Otrace {
     0% {
         background-color:#75bbd2; 
     }
+    25% {background-color:#e4eebd
+        }
     50% {
         background-color: white;
     }
+    75% {background-color:#e4eebd
+        }
     100% {
         background-color: #75bbd2;
     }
@@ -236,9 +255,13 @@ img.UMtrace {
     0% {
         background-color:#75bbd2; 
     }
+    25% {background-color:#e4eebd
+        }
     50% {
         background-color: white;
     }
+    75% {background-color:#e4eebd
+        }
     100% {
         background-color: #75bbd2;
     }
@@ -309,14 +332,17 @@ img.UMitrace {
     0% {
         background-color:#75bbd2; 
     }
+    25% {background-color:#e4eebd
+        }
     50% {
         background-color: white;
     }
+    75% {background-color:#e4eebd
+        }
     100% {
         background-color: #75bbd2;
     }
 }
-
 
 .popup4 {
     width: 700;

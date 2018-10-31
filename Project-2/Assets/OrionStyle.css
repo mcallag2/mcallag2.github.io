@@ -2,8 +2,14 @@
     margin: 0px
 }
 
-.body {
-    background-color: #cbdce1;
+img.infobg {
+    min-height:100%;
+    min-width: 1024px;
+    width:100%;
+    height: auto;
+    position: absolute;
+    background-size: cover;
+    z-index: -999;
 }
 
 
@@ -14,13 +20,15 @@
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: relative;  
 }
 
 img.backgroundpic {
     width: 768;
-    height:1024;
+    height:1000;
+    top:20;
     position: absolute;
+    opacity: 0.6;
     z-index: -10;      
 }
 
@@ -44,7 +52,7 @@ img.orionpic {
 }
 
 .orioninfo {
-    width: 400px;
+    width: 410px;
     font-size: 20px;
     text-align: left;
     margin-left: 194;
@@ -52,6 +60,7 @@ img.orionpic {
     margin-bottom: 25;
     order: 3;
     color: #0f5171;
+    font-family:sans-serif;
 
 }
 
@@ -65,13 +74,13 @@ img.orionpic {
 }
 
 a {
-    color:white;
+    color:#0f5171;
     font-family: sans-serif;
     text-decoration: none;
     font-size: 25
 }
 
 a:hover {
-    color: #0f5171;
+    color:#c6d9e0;
 }
 
