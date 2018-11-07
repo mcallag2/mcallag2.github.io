@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+.header {
+    background-color: coral;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 45rem;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    
+   
+    }
+
+.title{
+    background-color: azure;
+    color: blue;
+    width: 50%;
+    height: 20rem;
+    display: inline-block;
+    padding-top: 5rem;
+    font-size: 2rem;
+    flex-direction: column-reverse;
+    order: 2;
+    margin: 5rem auto 0 auto; 
+    
+    
+}
+.scroll{
+    background-color: azure;
+    color:blue;
+    width:25%;
+    height:2rem;
+    font-size: 1rem;
+    order: 3;
+    margin: 5rem auto 0 auto;
+    
+        
+}
+
+.menu {
+    background-color: azure;
+    width: 5rem;
+    height: 1.5rem;
+    color: blue;
+    order: 1;
+    margin: 3rem 80% 3rem 
+    
+}
+
+
+.photos {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:60rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.project1 {
+    background-color: darksalmon;
+    width: 100%;
+    height:30%;
+    color:white;
+    text-align: center;
+    order: 1;
+    margin:8rem 0 8rem 3rem;
+    
+}
+
+.project2 {
+    background-color: darksalmon;
+    width: 100%;
+    height: 30%;
+    color:white;
+    text-align: center;
+    order: 2;
+    margin:8rem 0 8rem 3rem;
+    
+}
+
+.project3 {
+    background-color: darksalmon;
+    width: 100%;
+    height: 30%;
+    color:white;
+    text-align: center;
+    order: 3;
+    margin:8rem 5rem 8rem 3rem;
+    
+    
+}
+
