@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body {
+    background-color: white;  
+}
+
+img.resume {
+width: 90%; 
+margin: 2rem 5% 2rem 5%;
+    
+}
+
+button {
+    width:18%;
+    height:2rem;
+    font-size:1rem;
+    background-color: #d6e2e5;
+    border: none;
+    font-family: gastromond;
+    font-weight: 400;
+    margin:0 41% 4rem 41%;
+    color:white;
+}
